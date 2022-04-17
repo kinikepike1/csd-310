@@ -9,4 +9,4 @@ print("-- Pytech COllection List --")
 for collection in db.list_collection_names():
     print("['" + collection+ "']")
 print("End of program, press any key to exit...")
-os.system('pause > null')
+os.system('pause > NULL')

@@ -20,4 +20,4 @@ x = col.insert_one(doc2).inserted_id
 print("Inserted student record {} {} into the students collection with document_id {}".format(doc2["first_name"],doc2["last_name"],x))
 
 print("\n\nEnd of program, press any key to exit...")
-os.system('pause > null')
+os.system('pause > NULL')

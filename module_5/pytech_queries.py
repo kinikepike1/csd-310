@@ -18,4 +18,4 @@ x = col.find_one({"student_id" : 1007})
 print("Student ID: {}\nFirst Name: {}\nLast Name: {}".format(x["student_id"],x["first_name"],x["last_name"]))
 
 print("\n\nEnd of program, press any key to exit...")
-os.system('pause > null')
+os.system('pause > NULL')

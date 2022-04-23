@@ -1,6 +1,5 @@
 import os
 from pymongo import MongoClient
-import json
 
 url = "mongodb+srv://admin:admin@cluster0.upsow.mongodb.net/pytech"
 client = MongoClient(url)
